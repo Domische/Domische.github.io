@@ -1,0 +1,295 @@
+.projects-main-container {
+    display: block;
+    width: 100vw;
+    height: 83.2vh;
+    overflow: scroll;
+    background-image: url("../images/projectsfon.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3);
+}
+
+.projects img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project-1 p {
+    position: absolute;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+
+.project-1:hover p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.project-2 p {
+    position: absolute;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+
+.project-2:hover p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.project-3 p {
+    position: absolute;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+
+.project-3:hover p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.project-4 p {
+    position: absolute;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+
+.project-4:hover p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.project-5 p {
+    position: absolute;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+
+.project-5:hover p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.project-6 p {
+    position: absolute;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+
+.project-6:hover p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.project-7 p {
+    position: absolute;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+
+.project-7:hover p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.project-8 p {
+    position: absolute;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+
+.project-8:hover p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.project-9 p {
+    position: absolute;
+    padding: 0.5em;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+
+.project-9:hover p {
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.proj p:hover {
+    opacity: 0.6;
+}
+
+.proj {
+    height: 35vh;
+    margin: 1em;
+    box-shadow: 5px 5px 20px black;
+    transition: transform 0.7s ease;
+}
+
+.proj:hover {
+    transform: scale(1.04);
+}
+
+.project-1 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.project-2 {
+    grid-column: 5/9;
+    grid-row: 1/2;
+}
+.project-3 {
+    grid-column: 9/13;
+    grid-row: 1/2;
+}
+.project-4 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+.project-5 {
+    grid-column: 5/9;
+    grid-row: 2/3;
+}
+.project-6 {
+    grid-column: 9/13;
+    grid-row: 2/3;
+}
+.project-7 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+.project-8 {
+    grid-column: 5/9;
+    grid-row: 3/4;
+}
+.project-9 {
+    grid-column: 9/13;
+    grid-row: 3/4;
+}
+
+@media (max-width:900px) {
+    .projects p {
+        font-size: 5vw;
+    }
+
+    .projects {
+        grid-template-rows: repeat(5);
+    }
+
+    .project-1 {
+        grid-column: 1/7;
+        grid-row: 1/2;
+    }
+    .project-2 {
+        grid-column: 7/13;
+        grid-row: 1/2;
+    }
+    .project-3 {
+        grid-column: 1/7;
+        grid-row: 2/3;
+    }
+    .project-4 {
+        grid-column: 7/13;
+        grid-row: 2/3;
+    }
+    .project-5 {
+        grid-column: 1/7;
+        grid-row: 3/4;
+    }
+    .project-6 {
+        grid-column: 7/13;
+        grid-row: 3/4;
+    }
+    .project-7 {
+        grid-column: 1/7;
+        grid-row: 4/5;
+    }
+    .project-8 {
+        grid-column: 7/13;
+        grid-row: 4/5;
+    }
+    .project-9 {
+        grid-column: 1/7;
+        grid-row: 5/6;
+    }
+}
+
+@media (max-width:550px) {
+    .projects p {
+        font-size: 2em;
+    }
+
+    .projects {
+        grid-template-rows: repeat(9);
+    }
+
+    .project-1 {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    .project-2 {
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    .project-3 {
+        grid-column: 1/13;
+        grid-row: 3/4;
+    }
+    .project-4 {
+        grid-column: 1/13;
+        grid-row: 4/5;
+    }
+    .project-5 {
+        grid-column: 1/13;
+        grid-row: 5/6;
+    }
+    .project-6 {
+        grid-column: 1/13;
+        grid-row: 6/7;
+    }
+    .project-7 {
+        grid-column: 1/13;
+        grid-row: 7/8;
+    }
+    .project-8 {
+        grid-column: 1/13;
+        grid-row: 8/9;
+    }
+    .project-9 {
+        grid-column: 1/13;
+        grid-row: 9/10;
+    }
+}

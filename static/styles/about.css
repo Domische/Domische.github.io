@@ -1,0 +1,40 @@
+.about-main-container {
+    display: block;
+    width: 100vw;
+    height: 83.2vh;
+    overflow: scroll;
+    background-image: url("../images/aboutfon.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-main-container p {
+    color: white;
+    text-indent: 4em;
+    margin-block: 1em;
+    padding-inline: 1em;
+    font-size: 1.8em;
+    word-spacing: 0.2em;
+    line-height: 1.5em;
+    text-shadow: 3px 3px 3px black;
+    text-align: justify;
+    font-weight: 300;
+}
+
+@media (max-width:580px) {
+    .about-main-container p {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width:440px) {
+    .about-main-container p {
+        font-size: 1.15em;
+    }
+}
+
+@media (max-width:290px) {
+    .about-main-container p {
+        font-size: 1.05em;
+    }
+}

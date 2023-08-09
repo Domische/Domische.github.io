@@ -1,0 +1,398 @@
+.back-slider {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* @media (min-width:1245px) {
+    .back-slider {
+        margin-inline: 9em;
+    }
+} */
+/* @media (min-width:1265px) {
+    .back-slider {
+        margin-inline: 9.5em;
+    }
+}
+@media (min-width:1285px) {
+    .back-slider {
+        margin-inline: 10em;
+    }
+} */
+/* @media (min-width:1305px) {
+    .back-slider {
+        margin-inline: 10.5em;
+    }
+}
+@media (min-width:1325px) {
+    .back-slider {
+        margin-inline: 11em;
+    }
+}
+@media (min-width:1345px) {
+    .back-slider {
+        margin-inline: 11.5em;
+    }
+}
+@media (min-width:1365px) {
+    .back-slider {
+        margin-inline: 12em;
+    }
+}
+@media (min-width:1385px) {
+    .back-slider {
+        margin-inline: 12.5em;
+    }
+}
+@media (min-width:1405px) {
+    .back-slider {
+        margin-inline: 13em;
+    }
+}
+@media (min-width:1425px) {
+    .back-slider {
+        margin-inline: 13.5em;
+    }
+}
+@media (min-width:1445px) {
+    .back-slider {
+        margin-inline: 14em;
+    }
+}
+@media (min-width:1465px) {
+    .back-slider {
+        margin-inline: 14.5em;
+    }
+}
+@media (min-width:1485px) {
+    .back-slider {
+        margin-inline: 15em;
+    }
+}
+@media (min-width:1505px) {
+    .back-slider {
+        margin-inline: 15.5em;
+    }
+}
+@media (min-width:1525px) {
+    .back-slider {
+        margin-inline: 16em;
+    }
+}
+@media (min-width:1545px) {
+    .back-slider {
+        margin-inline: 16.5em;
+    }
+}
+@media (min-width:1565px) {
+    .back-slider {
+        margin-inline: 17em;
+    }
+}
+@media (min-width:1585px) {
+    .back-slider {
+        margin-inline: 17.5em;
+    }
+}
+@media (min-width:1605px) {
+    .back-slider {
+        margin-inline: 18em;
+    }
+} */
+
+/* @media (min-width:915px) {
+    .back-slider {
+        margin: 1em
+    }
+}
+
+@media (min-width:940px) {
+    .back-slider {
+        margin: 1.5em
+    }
+}
+
+@media (min-width:960px) {
+    .back-slider {
+        margin: 2em
+    }
+}
+
+@media (min-width:980px) {
+    .back-slider {
+        margin: 2.5em
+    }
+}
+
+@media (min-width:1000px) {
+    .back-slider {
+        margin: 3em
+    }
+}
+@media (min-width:1020px) {
+    .back-slider {
+        margin: 3.5em
+    }
+}
+@media (min-width:1040px) {
+    .back-slider {
+        margin: 4em
+    }
+}
+@media (min-width:1060px) {
+    .back-slider {
+        margin: 4.5em
+    }
+}
+@media (min-width:1080px) {
+    .back-slider {
+        margin: 5em
+    }
+}
+@media (min-width:1100px) {
+    .back-slider {
+        margin: 5.5em
+    }
+} */
+
+
+
+.slide>p {
+    position: absolute;
+    color: white;
+    margin: 0.5em;
+    font-size: 3em;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px black;
+    transition: all 0.7s ease;
+}
+
+.text-project {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-project p {
+    color: white;
+    padding: 0.5em;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: justify;
+    text-shadow: 1px 1px 10px black;
+}
+
+.slides input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+}
+
+.back-slider img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.bar {
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1em;
+    width: 3em;
+    height: 1em;
+    margin: 0.5em;
+    transition: all 0.7s ease;
+}
+
+.bar:hover {
+    background-color: white;
+    opacity: 0.7;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+
+#r1:checked ~ .s1 {
+    margin-left: 0%;
+}
+#r2:checked ~ .s1 {
+    margin-left: -20%;
+}
+#r3:checked ~ .s1 {
+    margin-left: -40%;
+}
+#r4:checked ~ .s1 {
+    margin-left: -60%;
+}
+#r5:checked ~ .s1 {
+    margin-left: -80%;
+}
+
+@media (max-width:1070px) {
+    .text-project p {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width:920px) {
+    .text-project p {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width:600px) {
+    .slide>p {
+        font-size: 7vw;
+    }
+
+    .text-project p {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:405px) {
+    .text-project p {
+        font-size: 1.2em;
+    }
+}
+
+/* @media (max-width:850px) {
+    .back-main-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2);
+        overflow: scroll;
+    }
+
+    .back-slider {
+        grid-column: 1/13;
+        grid-row: 1/2;
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .text-project {
+        grid-column: 1/13;
+        grid-row: 2/3;
+        width: 100%;
+        height: 100%;
+    } */
+
+    /* .back-slider img {
+        width: 100vw;
+        height: 80vh;
+    } */
+/* } */
+
+@media (max-width: 380px) {
+    .bar {
+        width: 2em;
+    }
+}
+
+@media (min-width:915px) {
+    .back-slider {
+        margin: 1em;
+        max-height: 83.2vh;
+    }
+
+    .slide img {
+        max-height: 83.2vh;
+    }
+}
+
+@media (min-width:945px) {
+    .back-slider {
+        margin-inline: 1.5em;
+    }
+}
+
+@media (min-width:965px) {
+    .back-slider {
+        margin-inline: 2em;
+    }
+}
+@media (min-width:985px) {
+    .back-slider {
+        margin-inline: 2.5em;
+    }
+}
+@media (min-width:1005px) {
+    .back-slider {
+        margin-inline: 3em;
+    }
+}
+@media (min-width:1025px) {
+    .back-slider {
+        margin-inline: 3.5em;
+    }
+}
+@media (min-width:1045px) {
+    .back-slider {
+        margin-inline: 4em;
+    }
+}
+@media (min-width:1065px) {
+    .back-slider {
+        margin-inline: 4.5em;
+    }
+}
+@media (min-width:1085px) {
+    .back-slider {
+        margin-inline: 5em;
+    }
+}
+@media (min-width:1105px) {
+    .back-slider {
+        margin-inline: 5.5em;
+    }
+}
+@media (min-width:1125px) {
+    .back-slider {
+        margin-inline: 6em;
+    }
+}
+@media (min-width:1145px) {
+    .back-slider {
+        margin-inline: 6.5em;
+    }
+}
+@media (min-width:1165px) {
+    .back-slider {
+        margin-inline: 7em;
+    }
+}
+@media (min-width:1185px) {
+    .back-slider {
+        margin-inline: 7.5em;
+    }
+}
+@media (min-width:1205px) {
+    .back-slider {
+        margin-inline: 8em;
+    }
+}
+@media (min-width:1225px) {
+    .back-slider {
+        margin-inline: 8.5em;
+    }
+}
